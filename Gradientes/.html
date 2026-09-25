@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente Radial</title>
+    <style>
+        body {background-color: #ccffcc;}
+        #grad1{
+            height: 100px;
+            background: radial-gradient(yellow, blue, red);
+        }
+        #grad2{
+            height: 100px;
+            background: radial-gradient(yellow 5%, blue 15%, red 60%);
+        }
+    </style>
+</head>
+<body>
+    <h3>Gradiente Radial</h3>
+    <p>Comienza desde el centro del elemento
+        y se dibujan círculos concéntrico que 
+        ocupan lo mismo
+    </p>
+    <div id="grad1"></div>
+    <p>En este caso el color rojo ocupa el 60%,
+        el azul el 15%, el amarillo 5%
+    </p>
+    <div id="grad2"></div>
+</body>
+</html>

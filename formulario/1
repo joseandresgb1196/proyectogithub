@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de un cliente</title>
+</head>
+<body>
+        <center>
+            <h1>Registro</h1>
+        </center>
+        <br>
+        <table width="100%" border="0" cellpadding="4" cellspacing="2">
+            <tr bgcolor="#F5F2DF">
+                <td colspan="2">
+                    <b>Información de perfil</b>
+                </td>
+            </tr>
+            <tr>
+                <td width="1%" align="right" valign="top">
+                    Nombre
+                </td>
+                <td>
+                    <select name="titulo">
+                        <option value="Sr.">Sr.</option>
+                        <option value="Sra.">Sra.</option>
+                        <option value="Srta.">Srta.</option>
+                    </select>
+                    <input type="text" name="nombre" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Apellido(s)
+                </td>
+                <td>
+                    <input type="text" name="apellidos" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Idioma
+                </td>
+                <td>
+                    <select name="xidioma">
+                        <option value="Español" selected>Español</option>
+                        <option value="Ingles" selected>Ingles</option>
+                        <option value="Portugues" selected>Portugues</option>
+                        <option value="Frances" selected>Frances</option>
+                        <option value="Aleman" selected>Aleman</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Sexo
+                </td>
+                <td>
+                    <input type="radio" name="sexo" value="M" id="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" value="F" id="femenino">
+                    <label for="femenino">Femenino</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Cumpleaños
+                </td>
+                <td>
+                    <select name="dia">
+                        <option value="">Día</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+
+                    <select name="mes">
+                        <option value="">Mes</option>
+                       <option value="Enero">Enero</option> 
+                       <option value="Febrero">Febrero</option> 
+                       <option value="Marzo">Marzo</option> 
+                       <option value="Abril">Abril</option> 
+                       <option value="Mayo">Mayo</option> 
+                       <option value="Junio">Junio</option> 
+                       <option value="Julio">Julio</option> 
+                       <option value="Agosto">Agosto</option> 
+                       <option value="Septiembre">Septiembre</option> 
+                       <option value="Octubre">octubre</option> 
+                       <option value="Noviembre">Noviembre</option> 
+                       <option value="Diciembre">Diciembre</option>
+                    </select>
+                    <br>
+                    Año <input type="text" name="anio" size="6" value="2020"> <font size="2">(Ej:1996)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#F5F2DF">
+                <td colspan="2">
+                    <b>Información de la cuenta</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Nombre de inicio<br>de sesión
+                </td>
+                <td>
+                    <input type="text" name="usuario" size="35">
+                    <font size="2">(p. ej:chepe@gmail.com)</font>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Contraseña
+                </td>
+                <td>
+                    <input type="password" name="clave" size="25">
+                    <br>
+                    <font size="2">
+                        Debe tener al menos ocho (8) caracteres de longitud, puede<br>
+                        contener números (0-9) y letras mayúsculas y minúsculas (A-Z, a-z),<br>
+                        pero no puede incluir ningún espacio.
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Pregunta Secreta
+                </td>
+                <td>
+                    <select name="pregunta">
+                        <option value="1">Elija una pregunta cuya respuesta sólo usted conozca...</option>
+                        <option value="2">¿Cuál es el nombre de su primera mascota?</option>
+                        <option value="3">¿Cuál es su ciudad de nacimiento?</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Respuesta a la<br>pregunta secreta
+                </td>
+                <td>
+                    <input type="text" name="respuesta" size="35">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">
+                    Pertenecer a
+                </td>
+                <td>
+                    <input type="checkbox" name="directorio" id="directorio" checked>
+                    <label for="directorio">Directorio</label>
+                    <br>
+                    <input type="checkbox" name="amarillas" id="amarillas" checked>
+                    <label for="amarillas">Páginas amarillas</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="submit" value="Registrarse">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>

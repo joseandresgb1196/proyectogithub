@@ -1,0 +1,29 @@
+.izquierda {
+    text-align: left;              
+    text-indent: 2px;              
+    font-size: 10px;                 
+    font-family: "Times", serif;    
+}
+
+.centrado {
+    text-align: center;             
+    font-weight: bold;              
+    font-size: 10px;                
+    text-decoration: underline;     
+    font-family: "Arial", sans-serif; 
+}
+
+
+.derecha {
+    text-align: right;              
+    text-indent: 2px;               
+    font-size: 8px;                 
+    font-family: "Times", serif;    
+}
+
+
+.justificado {
+    text-align: justify;            
+    font-style: italic;             
+    font-family: "Verdana", sans-serif; 
+}

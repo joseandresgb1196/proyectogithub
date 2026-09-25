@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Celdas de colores</h2>
+    <hr><p>
+        <table border="table"> 
+        <tr>
+            <td bgcolor="#00ff00">fila1-celda1</td>
+            <td bgcolor="white">fila2-celda2</td>
+        </tr>   
+    <tr>
+        <td bgcolor="#eb64ee">fila2-celda1</td>
+        <td bgcolor="yellow">fila2-celda2</td>
+    </tr>
+        </table>
+</body>
+</html>
