@@ -19,3 +19,27 @@ h2 {
   text-align: center;
   color: #333;
 }
+
+label {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  box-sizing: border-box; 
+}
+
+
+button {
+    margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
